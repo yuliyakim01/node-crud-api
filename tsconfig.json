@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "types": ["jest", "node"],
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*.ts", "tests/userRoutes.test.ts"],
+    "exclude": ["node_modules"]
+  }
+  

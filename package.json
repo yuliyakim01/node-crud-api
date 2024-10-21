@@ -1,0 +1,38 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "description": "this is a readme file",
+  "scripts": {
+    "start": "node dist/server.js",
+    "start:dev": "ts-node src/server.ts",
+    "start:multi": "ts-node src/cluster.ts",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.13",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.7.7",
+    "@types/supertest": "^6.0.2",
+    "@types/uuid": "^10.0.0",
+    "eslint": "^9.13.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
